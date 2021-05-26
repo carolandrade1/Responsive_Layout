@@ -2,7 +2,7 @@
 https://carolas1.github.io/layout-css/
 
 ## Informações Gerais
-10 Layouts que destacam o quão robusto e impactante uma única linha de código CSS pode ser. No site você pode movimentar a div para melhor visualizar os efeitos, caso queira ver o código para cada exemplo, só clicar no botão do Codepen.
+10 Layouts que destacam o quão robusto e impactante uma única linha de código CSS pode ser. No site você pode movimentar a div para melhor visualizar os efeitos e caso queira ver o código para cada exemplo, só clicar no botão do Codepen.
 
 ## Tecnologias utilizadas
 HTML <br>
