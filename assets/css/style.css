@@ -290,7 +290,7 @@ footer {
 }
 
 .madeby a {
-    background-color: var(--bg05-color);
+    background-color: none;
 }
 
 /* ---------------------------------------- */
