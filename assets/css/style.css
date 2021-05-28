@@ -286,11 +286,11 @@ footer {
     place-items: center;
     text-align: center;
 
-    background: #f7f7f7;
+    background: #EAEBDB;
 }
 
 .madeby a {
-    background-color: none;
+    background-color: #EAEBDB;
 }
 
 /* ---------------------------------------- */
