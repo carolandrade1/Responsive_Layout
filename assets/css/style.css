@@ -291,6 +291,8 @@ footer {
 
 .madeby a {
     background-color: #EAEBDB;
+    padding: 0;
+    border-radius: 0;
 }
 
 /* ---------------------------------------- */
