@@ -1,4 +1,14 @@
 /* --------- GLOBAL ------- */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,400;1,600&display=swap');
 
 :root {
