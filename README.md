@@ -1,5 +1,5 @@
 # Layouts Responsivos
-<a href="https://carolas1.github.io/responsive-layout-css/">Live</a>
+<a href="https://carolandrade1.github.io/responsive-layout-css/">Live</a>
 
 ![54877](https://user-images.githubusercontent.com/65976843/120247733-eb8a2600-c24a-11eb-947f-c8c69e802b9b.PNG)
 
