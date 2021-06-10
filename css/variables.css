@@ -1,0 +1,16 @@
+:root {
+    --text-color: #131313;
+    --bg-color: #fafafa;
+    
+    --bg00-color: #AFEEEE;
+    --bg01-color: #FFBBBB;
+    --bg02-color: #F9F597;
+    --bg03-color: #8CF6A3;
+    --bg04-color: #9ea7f7;
+}
+
+.azul-claro {background: var(--bg00-color);}
+.vermelho-claro {background: var(--bg01-color)}
+.amarelo{background: var(--bg02-color);}
+.verde-claro{background: var(--bg03-color);}
+.roxo{background: var(--bg04-color);}

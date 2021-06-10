@@ -6,93 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Layouts Responsivos">
 
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/global.css">
     
     <title>Layouts Responsivos</title>
 </head>
 
 <body>
     <section>
-        <div class="main-section">
+        <div class="hero">
             <div>
                 <h1>Layouts Responsivos</h1>
-                <p>10 Layouts que destacam o quão robusto e impactante uma única linha de código CSS pode ser.</p>
+                <p>10 Layouts que destacam o quão robusto e impactante uma única linha de código CSS pode ser.</p> <br>
+                <p>Tente mover os containers!</p>
             </div>     
         </div>
     </section>
     <section>
         <div class="container">
-            <div class="title">
+            <div class="container__title">
                 <h2>01. Super Centered</h2>
                 <p>place-items: center</p>
             </div>
             <a href="https://codepen.io/carol11/pen/poePwjb">Codepen</a>
-            <div class="ex01 resize azul-claro">
-                <div class="ex01_child vermelho-claro" contenteditable>
+            <div class="display01 resize azul-claro">
+                <div class="display01__child vermelho-claro" contenteditable>
                     <p>Hello!</p>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="title">
+            <div class="container__title">
                 <h2>02. The Deconstructed Pancake</h2>
                 <p>flex: 0 1 &#60;baseWidth&#62;</p>
             </div>
             <a href="https://codepen.io/carol11/pen/ZEeKypK">Codepen</a>
-            <div class="ex02 resize azul-claro">
-                <div class="ex02_child vermelho-claro" contenteditable>1</div>
-                <div class="ex02_child vermelho-claro" contenteditable>2</div>
-                <div class="ex02_child vermelho-claro" contenteditable>3</div>
+            <div class="display02 resize azul-claro">
+                <div class="display02__child vermelho-claro" contenteditable>1</div>
+                <div class="display02__child vermelho-claro" contenteditable>2</div>
+                <div class="display02__child vermelho-claro" contenteditable>3</div>
             </div>
         </div>
         <div class="container">
-            <div class="title">
+            <div class="container__title">
                 <h2>03. Sidebar</h2>
                 <p>grid-template-columns: minmax(&#60;min&#62;, &#60;max&#62;) ...</p>
             </div>
             <a href="https://codepen.io/carol11/pen/jOBmwBr">Codepen</a>
-            <div class="ex03 resize">
-                <div class="sidebar azul-claro" contenteditable>
+            <div class="display03 resize">
+                <div class="display03__sidebar azul-claro" contenteditable>
                     Min: 50px <br/> Max: 25%
                 </div>
-                <div class="content vermelho-claro" contenteditable>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nulla architecto maxime modi nisi.</p>
+                <div class="display03__content vermelho-claro" contenteditable>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="title">
+            <div class="container__title">
                 <h2>04. Pancake Stack</h2>
                 <p>grid-template-columns: auto 1fr auto</p>
             </div>
             <a href="https://codepen.io/carol11/pen/RwpVgLm">Codepen</a>
-            <div class="ex04 resize">
-                <div class="header azul-claro" contenteditable>Header</div>
-                <div class="main vermelho-claro" contenteditable>Main</div>
-                <div class="footer azul-claro" contenteditable>Footer</div>
+            <div class="display04 resize">
+                <div class="display04__header azul-claro" contenteditable>Header</div>
+                <div class="display04__main vermelho-claro" contenteditable>Main</div>
+                <div class="display04__footer azul-claro" contenteditable>Footer</div>
             </div>
         </div>
         <div class="container">
-            <div class="title">
+            <div class="container__title">
                 <h2>05. Classic Layout</h2>
                 <p>grid-template: auto 1fr auto / auto 1fr auto</p>
             </div>
             <a href="https://codepen.io/carol11/pen/jOBmwYV">Codepen</a>
-            <div class="ex05 resize">
-                <div class="header01 azul-claro" contenteditable>Header</div>
-                <div class="lsidebar amarelo" contenteditable>Sidebar</div>
-                <div class="main01 vermelho-claro" contenteditable>Main</div>
-                <div class="rsidebar amarelo" contenteditable>Sidebar</div>
-                <div class="footer01 azul-claro" contenteditable>Footer</div>
+            <div class="display05 resize">
+                <div class="display05__header azul-claro" contenteditable>Header</div>
+                <div class="display05__lsidebar amarelo" contenteditable>Sidebar</div>
+                <div class="display05__main vermelho-claro" contenteditable>Main</div>
+                <div class="display05__rsidebar amarelo" contenteditable>Sidebar</div>
+                <div class="display05__footer azul-claro" contenteditable>Footer</div>
             </div>
         </div>
         <div class="container">
-            <div class="title">
+            <div class="container__title">
                 <h2>06. 12-Span Grid</h2>
                 <p>grid-template-columns: repeat(12, 1fr)</p>
             </div>
             <a href="https://codepen.io/carol11/pen/zYZwzjj">Codepen</a>
-            <div class="ex06 resize">
+            <div class="display06 resize">
                 <div class="span12 azul-claro" contenteditable>Span 12</div>
                 <div class="span6 amarelo" contenteditable>Span 6</div>
                 <div class="span4 vermelho-claro" contenteditable>Span 4</div>
@@ -100,70 +103,70 @@
             </div>
         </div>
         <div class="container">
-            <div class="title">
+            <div class="container__title">
                 <h2>07. RAM (Repeat, Auto, Minmax)</h2>
                 <p>grid-template-columns: repeat(auto-fit, minmax(&#60;base&#62;, 1fr))</p>
             </div>
             <a href="https://codepen.io/carol11/pen/NWpjgBR">Codepen</a>
-            <div class="ex07 resize">
-                <div class="ex07_01 azul-claro" contenteditable>1</div>
-                <div class="ex07_02 vermelho-claro" contenteditable>2</div>
-                <div class="ex07_03 amarelo" contenteditable>3</div>
-                <div class="ex07_04 verde-claro" contenteditable>4</div>
+            <div class="display07 resize">
+                <div class="display07__01 azul-claro" contenteditable>1</div>
+                <div class="display07__02 vermelho-claro" contenteditable>2</div>
+                <div class="display07__03 amarelo" contenteditable>3</div>
+                <div class="display07__04 verde-claro" contenteditable>4</div>
             </div>
         </div>
         <div class="container">
-            <div class="title">
+            <div class="container__title">
                 <h2>08. Line Up</h2>
                 <p>justify-content: space-between</p>
             </div>
             <a href="https://codepen.io/carol11/pen/NWpjgOb">Codepen</a>
-            <div class="ex08 resize">
-                <div class="ex08_card azul-claro">
+            <div class="display08 resize">
+                <div class="display08__card azul-claro">
                     <h3>Card 1</h3>
                     <p class="min">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>  
-                    <div class="visual amarelo"></div>      
+                    <div class="display08__square amarelo"></div>      
                 </div>
-                <div class="ex08_card azul-claro">
+                <div class="display08__card azul-claro">
                     <h3>Card 2</h3>
                     <p class="min">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div class="visual amarelo"></div>        
+                    <div class="display08__square amarelo"></div>        
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="title">
+            <div class="container__title">
                 <h2>09. Clamping My Style</h2>
                 <p>clamp(&#60;min&#62;, &#60;actual&#62;, &#60;max&#62;)</p>
             </div>
             <a href="https://codepen.io/carol11/pen/abJWwPR">Codepen</a>
-            <div class="ex09 resize">
-                <div class="ex09_card azul-claro">
+            <div class="display09 resize">
+                <div class="display09__card azul-claro">
                     <h3>Title Here</h3>
-                    <div class="ex09_visual amarelo"></div> 
+                    <div class="display09__square amarelo"></div> 
                     <p class="min">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>  
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="title">
+            <div class="container__title">
                 <h2>10. Respect for Aspect</h2>
                 <p>aspect-ratio: &#60;width&#62; / &#60;height&#62;</p>
             </div>
             <a href="https://codepen.io/carol11/pen/abJWwMR">Codepen</a>
-            <div class="ex10 resize">
-                <div class="ex10_card amarelo">
+            <div class="display10 resize">
+                <div class="display10__card amarelo">
                     <h3>Video Title</h3>
-                    <div class="ex10_visual azul-claro"></div> 
+                    <div class="display10__square azul-claro"></div> 
                     <p class="min">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>  
                 </div>
             </div>
         </div>
     </section>
     <footer>
-        <div class="madeby">
-            <p>Esse site foi criado por <a href="https://github.com/carolas1">&copyCarol</a></p> <br>
-            <p>Inspirado no site <a href="https://1linelayouts.glitch.me/">1linelayouts.glitch.me</a> criado por <a href="https://una.im/">una</a></p>
+        <div class="footer">
+            <p>Esse site foi criado por <a href="https://github.com/carolas1">&copyCarol</a>.</p>
+            <p>Inspirado no site <a href="https://1linelayouts.glitch.me/">1linelayouts.glitch.me</a> criado por <a href="https://una.im/">&copyUna</a>.</p>
         </div>
     </footer>
 
