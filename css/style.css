@@ -1,0 +1,248 @@
+@import "global";
+@import "variables";
+
+.hero {
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    height: 75vh;
+    max-width: 55ch;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.display01 {
+    display: grid;
+    place-items: center;
+
+    height: min(30vh, 150px);
+}
+
+.display01__child {
+    padding: 1rem;
+    border-radius: .3rem;
+}
+
+.display02 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: min(30vh, 100px);
+}
+
+.display02__child {
+    /*flex: 1 1 150px;*/ /*  Stretching: ocupa todo o espaço disponivel */
+    flex: 0 1 150px; /*  No Stretching: move container mas não altera o tamanho da div */
+
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin: 5px;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.display03 {
+    display: grid;
+    grid-template-columns: minmax(50px, 25%) 1fr;
+
+    height: min(30vh, 150px);
+}
+
+.display03__sidebar {
+    height: auto;
+
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.display03__content {
+    padding: 2rem;
+}
+
+.display04 {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 200px;
+
+    text-align: center;
+}
+
+.display04__header, .display04__footer, .display04__main{
+    padding: .6rem 0;
+}
+
+.display05 {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    
+    height: 200px;
+    text-align: center;
+}
+
+.display05__header, .display05__lsidebar, .display05__main, .display05__rsidebar, .display05__footer {
+    padding: 0.5rem;
+}
+
+.display05__header {
+    grid-column: 1 / 4;
+}
+
+.display05__lsidebar {
+    grid-column: 1 / 2;
+}
+
+.display05__main {
+    grid-column: 2 / 3;
+}
+
+.display05__rsidebar {
+    grid-column: 3 / 4;
+}
+
+.display05__footer {
+    grid-column: 1 / 4;
+}
+
+.display06 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.span12, .span6, .span4, .span2 {
+    padding: 1rem 0;
+}
+
+.span12 {
+    grid-column: 1 / span 12;
+}
+
+.span6 {
+    grid-column: 1 / span 6;
+}
+
+.span4 {
+    grid-column: 1 / span 4;
+}
+
+.span2 {
+    grid-column: 1 / span 2; 
+}
+
+.display07 {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    
+    height: 150px;
+}
+
+.display07__01, .display07__02, .display07__03, .display07__04 {
+    display: grid;
+    place-items: center;
+    border-radius: .5rem;
+}
+
+.display08 {
+    height: auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.display08__card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.display08__square {
+    height: 70px;
+    width: 100%;
+}
+
+.display09 {
+    display: grid;
+    place-items: center;
+}
+
+.display09__card {
+    width: clamp(15ch, 25%, 46ch);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.display09__square {
+    height: 80px;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.display10 {
+    display: grid;
+    place-items: center;
+}
+
+.display10__card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.display10__square {
+    aspect-ratio: 5 / 3;
+    margin: .3rem 0;
+}
+
+.footer {
+    display: block;
+    margin-top: 5rem;
+    height: 120px;
+    text-align: center;
+    color: var(--bg-color);
+    background: var(--text-color);
+}
+
+.footer p {
+    padding: .8rem 0 .5rem 0;
+}
+
+.footer a {
+    font-weight: 600;
+    background: none;
+    border-radius: 0;
+    padding: 0 .2rem;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    .container__title p {
+        font-size: 1rem;
+    }
+    .display02__child {
+        flex: 0 1 40px; 
+    }
+    .span12, .span6, .span4, .span2 {
+        padding: .5rem 0;
+    }
+    .min {
+        font-size: .8rem;
+    }
+    .display09__card {
+        width: clamp(15ch, 60%, 22ch);
+    }
+    .display10__card {
+        width: clamp(15ch, 60%, 22ch);
+    }
+}
