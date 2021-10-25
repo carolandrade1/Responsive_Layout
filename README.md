@@ -5,7 +5,7 @@
 <br>
 
 <h1 align='center'> Layouts Responsivos </h1>
-<h3 align="center"><a href="https://carolandrade1.github.io/responsive-layout-css/" target="_blank" rel="noopener noreferrer">Clique aqui para conferir o projeto!</a><h3><br>
+<h3 align="center"><a href="https://carolandrade1.github.io/Responsive_Layout/" target="_blank" rel="noopener noreferrer">Clique aqui para conferir o projeto!</a><h3><br>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65976843/121596054-54c12480-ca15-11eb-808a-3ff1f50b8dd2.PNG" alt="Portfolio" width="800" height=""/>
